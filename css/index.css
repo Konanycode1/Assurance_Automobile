@@ -170,7 +170,7 @@ line-height: normal;
 
 
 }
-/*  ------------- section partenaire -------------- */
+/*  ------------- Fin section partenaire -------------- */
 
 /*  ------------- section service -------------- */
 .produit{
@@ -185,8 +185,7 @@ line-height: normal;
     margin: auto;
     text-align: center;
     font-family: arial;
-    background-color: #fff;
-    
+    background-color: #fff; 
     
   }
   
@@ -247,7 +246,7 @@ line-height: normal;
     border-radius: 10px;
    
   }
-  /*  ------------- section service -------------- */
+  /*  ------------- Fin section service -------------- */
 
   /*  ------------- section avantage -------------- */
 
@@ -300,9 +299,7 @@ line-height: normal;
     padding: 20px;
 
   }
-  .t2{
-
-  }
+ 
   .avant{
     font-size: 20px;
     color: #fff;
@@ -325,16 +322,124 @@ line-height: normal;
     border-spacing: 5 px;
     color: rgb(0, 0, 0);
   }
-  /*  ------------- section avantage -------------- */
+  /*  ------------- Fin section avantage -------------- */
 
  /* ------------- section processus------------- */
   .processus{
     padding: 10px;
     
   }
- /* ------------- section processus------------- */
+  .notre{
+    padding: 50px;
+    margin-left: 50px;
+    width: 500px;
+  }
+  .etape3{
+    font-weight: bold;
+  }
+.card-processus{
+    padding: 10px;
+    width: 1500px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-etape {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    
+  }
+  .etape {
+    color: grey;
+    font-size: 22px;
+    padding: 20px;
+  }
+  .btn-car{
+     font-size: 30px;
+     position:absolute;
+    bottom:10px;
+    left: 50%;
+    right: 50%;
+  }
+ /* -------------Fin section processus------------- */
 
+ /* ---------------section appel--------- */
+ .appel{
+    padding: 60px;
+    position: relative;
+ }
+ .appel-G{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+ }
+ .msg-appel{
+    padding-top: 60px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    
 
+ }
+ .img-joie{
+    width: 300px;
+    height: 260px;
+ }
+ .btnA{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+ }
+/* ----------Fin secttion appel------------- */
+
+ /* Début section footer */
+
+ .footer1{
+    width: 100%;
+    height: 200px;
+    background-color: #F1948A;
+    display: flex;
+    justify-content:space-around;
+    align-items: center     ;
+ }
+
+ .imglog{
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 150px;
+ }
+.footerBg{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position:sticky;
+}
+.copi{
+   
+    color: #fff;
+}
+
+ /* Fin section section footer */
+/*  */
 /* @media all and (max-width: 768px) {
     *{
         margin: 0px;
