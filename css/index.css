@@ -247,7 +247,92 @@ line-height: normal;
     border-radius: 10px;
    
   }
-  /*  ------------- section partenaire -------------- */
+  /*  ------------- section service -------------- */
+
+  /*  ------------- section avantage -------------- */
+
+  .avantage{
+    
+    width: 100%;
+    height: 1000px;
+    background-color: #F1948A;
+    border-top-left-radius: 100px;
+    clip-path: polygon(0 94%, 0 16%, 100% 0, 100% 100%);
+    
+  }
+  .img_1{
+    padding: 60px;
+    width: 300px;
+    height: 300px;
+    top: 2200px;
+    position: absolute;
+    left: 600px;
+    border-radius: 100px;
+   
+  
+  }
+  .img_2{
+    padding: 60px;
+    width: 300px;
+    height: 300px;
+    top: 2500px;
+    position: absolute;
+    left: 1200px;
+    border-radius: 100px;
+
+  }
+  .text1{
+    padding: 60px;
+    top: 2200px;
+    position: absolute;
+    left: 950px;
+    width: 600px;
+  }
+  .text2{
+    padding: 60px;
+    top: 2600px;
+    position: absolute;
+    left:600px;
+    width: 500px;
+    color: #fff;
+  }
+  .t1{
+    padding: 20px;
+
+  }
+  .t2{
+
+  }
+  .avant{
+    font-size: 20px;
+    color: #fff;
+  }
+  .garant{
+    font-size: 40px;
+    color: #fff;
+  }
+  .nous{
+    font-size: 15px;
+    color: #fff;
+  }
+  .like{
+    padding: 10px;
+    line-height: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .icon{
+    border-spacing: 5 px;
+    color: rgb(0, 0, 0);
+  }
+  /*  ------------- section avantage -------------- */
+
+ /* ------------- section processus------------- */
+  .processus{
+    padding: 10px;
+    
+  }
+ /* ------------- section processus------------- */
 
 
 /* @media all and (max-width: 768px) {
