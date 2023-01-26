@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: Avenir,sans-serif;
 }
+main {
+  min-width: 1140px;
+}
 body{
     min-height: 100vh;
 }
@@ -23,6 +26,25 @@ li{
     height: 60px;
        
 }
+.toggle-btn{
+  width: 35px;
+  position: absolute;
+  right: 70px;
+  top: 35px;
+  display: none;
+
+}
+.toggle-btn span {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  float: left;
+  margin-bottom: 8px;
+  
+}
+
+
 .menu {
 
 display: flex;   
@@ -82,7 +104,7 @@ img{
 position: absolute;
 top: 150px;
 left: 200px;
-width: 1000px;
+width: 60%;
 
 
 }
@@ -90,6 +112,7 @@ width: 1000px;
 font-size: 60px;
 color: #fff;
 line-height: normal;
+width: 60%;
 }
 .infos1{
    
@@ -130,41 +153,38 @@ line-height: normal;
 
 /*  ------------- section partenaire -------------- */
 .partenaire{
-    padding: 20px;
+    padding: 2%;
     text-align: center;
 }
 .card-partenaire{
     margin-left: auto;
     margin-right: auto;
-    width: 1050px;
+    width: 50%;
     height: 150px;
-    background-color: #F1948A;
-
-   
-    
+    background-color: #F1948A;  
 }
 .nospart{
-    padding: 50px;
+    padding: 2%;
     font-weight: bold;
 }
 .sous{
     display:block;
     float: left;
-    padding: 10px;
-    margin: 15px;
+    padding: 2%;
+    margin: 1.5%;
     color: #fff;
     font-size: 20px;
-    width: 200px;
+    width: 15%;
     font-weight: bold;
 
 }
 .img-partenaire{
     width: 150px;
     height: 70px;
+    
 }
 .imgPar{
-    padding: 50px;
-
+    padding: 5%;
     display: flex;  
     justify-content: space-between;
 
@@ -174,8 +194,7 @@ line-height: normal;
 
 /*  ------------- section service -------------- */
 .produit{
-    padding: 50px;
-    align-content: center;
+    padding: 5%;
     text-align: center;
 }
 
@@ -251,7 +270,6 @@ line-height: normal;
   /*  ------------- section avantage -------------- */
 
   .avantage{
-    
     width: 100%;
     height: 1000px;
     background-color: #F1948A;
@@ -260,29 +278,27 @@ line-height: normal;
     
   }
   .img_1{
-    padding: 60px;
+    
     width: 300px;
     height: 300px;
-    top: 2200px;
+    top: 2300px;
     position: absolute;
     left: 600px;
-    border-radius: 100px;
-   
-  
+    border-radius: 50px;
   }
   .img_2{
     padding: 60px;
     width: 300px;
     height: 300px;
-    top: 2500px;
+    top: 2600px;
     position: absolute;
     left: 1200px;
     border-radius: 100px;
 
   }
   .text1{
-    padding: 60px;
-    top: 2200px;
+    
+    top: 2300px;
     position: absolute;
     left: 950px;
     width: 600px;
@@ -326,7 +342,7 @@ line-height: normal;
 
  /* ------------- section processus------------- */
   .processus{
-    padding: 10px;
+    padding: 5%;
     
   }
   .notre{
@@ -338,8 +354,8 @@ line-height: normal;
     font-weight: bold;
   }
 .card-processus{
-    padding: 10px;
-    width: 1500px;
+    /* padding: 10px; */
+    width: 100%;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -376,7 +392,7 @@ line-height: normal;
 
  /* ---------------section appel--------- */
  .appel{
-    padding: 60px;
+    padding: 10%;
     position: relative;
  }
  .appel-G{
@@ -385,9 +401,9 @@ line-height: normal;
     margin-right: 40px;
  }
  .msg-appel{
-    padding-top: 60px;
+    padding-top: 3%;
     text-align: center;
-    width: 400px;
+    width: 30%;
     height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    
@@ -396,7 +412,7 @@ line-height: normal;
  }
  .img-joie{
     width: 300px;
-    height: 260px;
+    height: 250px;
  }
  .btnA{
     width: 300px;
@@ -426,26 +442,227 @@ line-height: normal;
     height: 150px;
  }
 .footerBg{
-    padding: 20px;
     text-align: center;
     width: 100%;
     height: 50px;
     background-color: black;
-    position:sticky;
 }
 .copi{
    
     color: #fff;
 }
 
-@media (max-width: 990px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-        font-family: Avenir,sans-serif;
-    }
-    
-   
+@media only screen  and (max-width: 1520px) {
 
    
+
+   .img_1{
+    
+    width: 300px;
+    height: 300px;
+    top: 2100px;
+    position: absolute;
+    left: 300px;
+    border-radius: 50px;
+  }
+  .text1{
+    
+    top: 2100px;
+    position: absolute;
+    left: 650px;
+    width: 600px;
+  }
+  .icon{
+    border-spacing: 5 px;
+    color: rgb(0, 0, 0);
+  }
+  .img_2{
+    padding: 60px;
+    width: 300px;
+    height: 300px;
+    top: 2350px;
+    position: absolute;
+    left: 900px;
+    border-radius: 100px;
+
+  }
+  .text2{
+    padding: 60px;
+    top: 2500px;
+    position: absolute;
+    left:200px;
+    width: 40%;
+    color: #fff;
+  }
+  /* .infos{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 60%;
+    
+    
+    } */
+    .infos2{
+    font-size: 60px;
+    color: #fff;
+    line-height: normal;
+    width: 100%;
+    }
+    .infos1{
+       
+        position: absolute;
+        color: #fff;
+        left: 200px;
+        line-height: 10%;
+    }
+   
+  }
+  @media only screen and (max-width: 1288px) {
+
+   .img_1{
+    
+    width: 200px;
+    height: 200px;
+    top: 2100px;
+    position: absolute;
+    left: 300px;
+    border-radius:20px;
+  }
+  .text1{
+    
+    top: 2100px;
+    position: absolute;
+    left: 650px;
+    width: 500px;
+  }
+  .img_2{
+  
+    width: 200px;
+    height: 200px;
+    top: 2400px;
+    position: absolute;
+    left: 700px;
+    border-radius:20px;
+    border-radius:20px;
+
+  }
+  .text2{
+    padding: 60px;
+    top: 2400px;
+    position: absolute;
+    left:200px;
+    width: 32%;
+    color: #fff;
+  }
+
+  .appel{
+    padding: 10%;
+    position: relative;
+ }
+ .appel-G{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+ }
+ .msg-appel{
+    padding-top: 3%;
+    text-align: center;
+    width: 40%;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    
+
+ }
+ .img-joie{
+    width: 300px;
+    height: 230px;
+ }
+ .btnA{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+ }
+    
+    
+  }
+  @media only screen and (max-width:516px){
+
+
+
+  }
+  @media (max-width:991px){
+    main{
+      width: 991px;
+    }
+   section{
+    width: 100vh;
+   }
+    .toggle-btn{
+      visibility: visible;
+      display: inline-block;
+    }
+    nav {
+      display: none; 
+      position: absolute;
+      padding: 20px;
+      background-color: #fff;
+     right: 40px;
+     top: 40px;
+     width: 35%;
+      }
+
+      nav:hover li {
+        display: block;
+      }
+      nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin:0;
+      }
+      .title-header{
+
+        width: 100vh;
+        position: relative;
+    }
+    .icon{
+      border-spacing: 5 px;
+      color: rgb(0, 0, 0);
+    }
+    .infos2{
+      font-size: 40px;
+      color: #fff;
+      line-height: normal;
+      width: 80%;
+      }
+      .infos1{
+         
+          position: absolute;
+          color: #fff;
+          left: 200px;
+          line-height: 10%;
+      }
+      .partenaire{
+        text-align: center;
+        width:90%;
+    }
+    .card-partenaire{
+      width: 50%;
+      height: 150px;
+      background-color: #F1948A;  
+  }
+  .avantage{
+    width: 100vh;
+  }
+  .text1{
+
+    top: 2100px;
+    position: absolute;
+    left: 550px;
+    width: 400px;
+  }
   }
