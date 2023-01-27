@@ -54,7 +54,7 @@ font-size: 18px;
 }
 .menu a:hover{
     
-    border-bottom: 2px solid #F1948A;
+    border-bottom: 5px solid #F1948A;
     transition: 0.3s ease;
 }
 
